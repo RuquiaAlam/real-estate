@@ -14,4 +14,7 @@ Currently, two official plugins are available:
 # install react-router-dom
 # create header component
 # npm i react-icons
+# create and run server
+# connect to a database
+# npm i mongoose(in root dir)
 
