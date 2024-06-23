@@ -8,17 +8,19 @@ import About from "./pages/About";
 import Profile from "./pages/Profile";
 import SignIn from "./pages/SignIn";
 import SignOut from "./pages/SignOut";
+import Header from "./components/Header.jsx";
 
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
 
         <Route path="/about" element={<About />} />
         <Route path="profile" element={<Profile />} />
-        <Route path="/signin" elenent={<SignIn />} />
-        <Route path="/signout" elenent={<SignOut />} />
+        <Route path="/sign-in" element={<SignIn />} />
+        <Route path="/sign-out" element={<SignOut />} />
       </Routes>
     </BrowserRouter>
   );

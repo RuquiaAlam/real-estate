@@ -9,6 +9,9 @@ Currently, two official plugins are available:
 
 
 
-# install react js and tailwingcss
+# install react js and tailwindcss
 # create pages and routes
 # install react-router-dom
+# create header component
+# npm i react-icons
+
