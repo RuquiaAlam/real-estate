@@ -20,4 +20,6 @@ Currently, two official plugins are available:
 # create a user model
  --create user model
 # create a test api route
+# create userController authController
+# create sign up api route
 
