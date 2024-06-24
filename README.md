@@ -17,4 +17,5 @@ Currently, two official plugins are available:
 # create and run server
 # connect to a database
 # npm i mongoose(in root dir)
+# create a user model
 
