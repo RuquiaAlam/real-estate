@@ -23,5 +23,7 @@ Currently, two official plugins are available:
 # create userController authController
 # create sign up api route
 # create a middleware and a function to handle possible errors
+# complete signup page UI
+
 
 

@@ -9,6 +9,7 @@ import Profile from "./pages/Profile";
 import SignIn from "./pages/SignIn";
 import SignOut from "./pages/SignOut";
 import Header from "./components/Header.jsx";
+import SignUp from "./pages/SignUp.jsx";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Route path="profile" element={<Profile />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-out" element={<SignOut />} />
+        <Route path="/sign-up" element={<SignUp />} />
+
       </Routes>
     </BrowserRouter>
   );
