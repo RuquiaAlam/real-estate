@@ -22,4 +22,6 @@ Currently, two official plugins are available:
 # create a test api route
 # create userController authController
 # create sign up api route
+# create a middleware and a function to handle possible errors
+
 

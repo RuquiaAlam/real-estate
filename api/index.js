@@ -17,7 +17,7 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
-  app.use(express.json());
+app.use(express.json());
 app.listen(PORT, (req, res) => {
   console.log(`Server running on ${PORT}`);
 });
@@ -30,3 +30,17 @@ app.get("/", (req, res) => {
 app.use("/api", testRoute);
 app.use("/api", userRouter);
 app.use("/api", authRouter);
+this;
+
+//error handler
+app.use((err, req, res, next) => {
+  const statusCode = err.statusCode || 500;
+
+  const message = err.message || "Internal server error";
+
+  return res.status(statusCode).json({
+    success: false,
+    statusCode,
+    message,
+  });
+});
