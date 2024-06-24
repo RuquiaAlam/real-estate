@@ -25,6 +25,8 @@ Currently, two official plugins are available:
 # create a middleware and a function to handle possible errors
 # complete signup page UI
 # complete sign-up page functionality
+# add proxy inside vite.config.js
+# complete sign-in page functionality
 
 
 

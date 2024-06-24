@@ -28,8 +28,8 @@ app.get("/", (req, res) => {
   res.json({ message: "Server " });
 });
 app.use("/api", testRoute);
-app.use("/api", userRouter);
-app.use("/api", authRouter);
+app.use("/api/user", userRouter);
+app.use("/api/auth", authRouter);
 this;
 
 //error handler
