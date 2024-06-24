@@ -24,6 +24,8 @@ Currently, two official plugins are available:
 # create sign up api route
 # create a middleware and a function to handle possible errors
 # complete signup page UI
+# complete sign-up page functionality
+
 
 
 

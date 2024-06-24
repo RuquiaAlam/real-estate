@@ -15,7 +15,7 @@ res.status(201).json({message:"new user created successfully!"})
 }
 catch(err)
     {
-   next(errorHandler(550,'error from function'));
+   next(err);
     }
 
 }
