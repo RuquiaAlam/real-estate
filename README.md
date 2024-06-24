@@ -18,4 +18,6 @@ Currently, two official plugins are available:
 # connect to a database
 # npm i mongoose(in root dir)
 # create a user model
+ --create user model
+# create a test api route
 
