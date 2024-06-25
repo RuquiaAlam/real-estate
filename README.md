@@ -28,6 +28,7 @@ Currently, two official plugins are available:
 # add proxy inside vite.config.js
 # complete sign-in page functionality
 # complete sign-in page UI
+# add redux toolkit
 
 
 
