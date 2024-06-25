@@ -42,7 +42,7 @@ export default function SignIn() {
       // setLoading(false);
       // setError(null);
       dispatch(signInSuccess(data));
-      navigate("/sign-in");
+      navigate("/");
       console.log(data);
     } catch (error) {
       // setLoading(false);

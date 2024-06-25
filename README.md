@@ -29,6 +29,10 @@ Currently, two official plugins are available:
 # complete sign-in page functionality
 # complete sign-in page UI
 # add redux toolkit
+# add redux persist 
+-npm i redux-persist
+
+
 
 
 
