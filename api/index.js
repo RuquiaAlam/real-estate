@@ -30,6 +30,7 @@ app.get("/", (req, res) => {
 app.use("/api", testRoute);
 app.use("/api/user", userRouter);
 app.use("/api/auth", authRouter);
+
 this;
 
 //error handler

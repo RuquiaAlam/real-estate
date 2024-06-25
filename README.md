@@ -31,6 +31,9 @@ Currently, two official plugins are available:
 # add redux toolkit
 # add redux persist 
 -npm i redux-persist
+# add google OAUTH functionality
+npm install firebase in client dir
+
 
 
 
