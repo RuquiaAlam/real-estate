@@ -35,7 +35,7 @@ Currently, two official plugins are available:
 npm install firebase in client dir
 # update the header and make profile page private
 # complete profile page UI
-
+# complete image upload functionality
 
 
 
