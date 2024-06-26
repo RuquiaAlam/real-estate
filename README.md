@@ -36,7 +36,8 @@ npm install firebase in client dir
 # update the header and make profile page private
 # complete profile page UI
 # complete image upload functionality
-
+# update user api route
+# complete the update functionaity
 
 
 
