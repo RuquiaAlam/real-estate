@@ -33,6 +33,7 @@ Currently, two official plugins are available:
 -npm i redux-persist
 # add google OAUTH functionality
 npm install firebase in client dir
+# update the header and make profile page private
 
 
 

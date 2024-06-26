@@ -43,7 +43,7 @@ export default function SignIn() {
       // setLoading(false);
       // setError(null);
       dispatch(signInSuccess(data));
-      navigate("/");
+      navigate("/profile");
       console.log(data);
     } catch (error) {
       // setLoading(false);
