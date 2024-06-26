@@ -34,6 +34,7 @@ Currently, two official plugins are available:
 # add google OAUTH functionality
 npm install firebase in client dir
 # update the header and make profile page private
+# complete profile page UI
 
 
 
