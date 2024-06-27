@@ -39,6 +39,8 @@ npm install firebase in client dir
 # update user api route
 # complete the update functionaity
 # complete delete user functionality
+# add signout functionality
+
 
 
 

@@ -5,6 +5,7 @@ import testRoute from "./routes/user.route.js";
 import userRouter from "./routes/user.route.js";
 import authRouter from "./routes/auth.route.js";
 import cookieParser from "cookie-parser"
+import listingRouter from "./routes/listing.route.js";
 dotenv.config();
 const MONGO_URL = process.env.MONGO_URL;
 const app = express();
@@ -32,6 +33,7 @@ app.get("/", (req, res) => {
 app.use("/api", testRoute);
 app.use("/api/user", userRouter);
 app.use("/api/auth", authRouter);
+app.use("/api/listing",listingRouter)
 
 this;
 
