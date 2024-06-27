@@ -38,6 +38,7 @@ npm install firebase in client dir
 # complete image upload functionality
 # update user api route
 # complete the update functionaity
+# complete delete user functionality
 
 
 
