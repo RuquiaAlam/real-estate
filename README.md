@@ -41,6 +41,7 @@ npm install firebase in client dir
 # complete delete user functionality
 # add signout functionality
 # complete create listing user functionality
+# complete create listing page functionality
 
 
 
